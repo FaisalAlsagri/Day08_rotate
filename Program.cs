@@ -17,7 +17,6 @@ namespace Day08
             Console.WriteLine(obj.mostFWord());
             Console.WriteLine(obj.swap());
             int[] value = { 1, 2, 3, 4, 5 };
-
             string word1 = string.Join(" ",obj.rotate(value,3,true));
             string word2 = string.Join(" ",obj.rotate(value,3,false));
             Console.WriteLine(word1);
